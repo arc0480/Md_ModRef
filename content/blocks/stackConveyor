@@ -1,0 +1,28 @@
+type: stackConveyor
+category: distribution
+health:
+size: 1
+
+//アイテムの動く速度
+speed: 
+
+//スタックされるアイテムの数
+itemCapacity:
+
+//表記上の速度
+displayedSpeed:
+
+//テックツリーに追加
+reserch: {
+  //前提となるブロック
+  parent: 
+  //必要なアイテム
+  requirements: [
+    item/1000
+  ]
+}
+
+//建設に必要なブロック
+requirements: [
+  item/1
+]
