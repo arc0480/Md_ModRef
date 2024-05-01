@@ -6,11 +6,16 @@ size: 3
 //砂や石炭の搬入を許可
 #incinerateNonBuildable: false
 
+//資材の格納限界
 itemCapacity: 2000
-unitCapModifier: 10
-unitType: alpha
-#incinerateNonBuildable: false
 
+//ユニットの格納限界
+unitCapModifier: 10
+
+//コアに対応するユニット
+unitType: alpha
+
+//初期コア
 isFirstTier: true
 
 squareSprite: false
